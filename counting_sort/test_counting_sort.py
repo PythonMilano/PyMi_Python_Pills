@@ -3,6 +3,7 @@
 import random
 from counting_sort import counting_sort
 from counting_sort import more_pythonic_counting_sort
+from merge_sort import top_down_merge_sort
 
 def test1():
     A = [random.randint(0, 99999) for i in range(100000)]
@@ -28,6 +29,16 @@ def test5():
     random.shuffle(A)
     A.sort()
 
+def test6():
+    A = [random.randint(0, 99999) for i in range(100000)]
+    top_down_merge_sort(A)
+
+def test7():
+    # no repetitions
+    A = list(range(100000))
+    A.sort()
+    top_down_merge_sort(A)
+
 if __name__ == '__main__':
     import timeit
     print('test counting_sort')
@@ -40,3 +51,7 @@ if __name__ == '__main__':
     print(timeit.timeit('test4()', setup='from __main__ import test4', number=10))
     print('test sort no repetitions')
     print(timeit.timeit('test5()', setup='from __main__ import test5', number=10))
+    print('test top down merge sort')
+    print(timeit.timeit('test6()', setup='from __main__ import test6', number=10))
+    print('test top down merge sort no repetitions')
+    print(timeit.timeit('test7()', setup='from __main__ import test7', number=10))
