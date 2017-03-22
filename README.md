@@ -2,9 +2,10 @@
 
 Python Pills from Python Milano Meetup: gotchas, tip n' tricks and slack discussion minutes.
 
-## How to install jupyter
+## How to contribute
 
-See [jupyter install](http://jupyter.org/install.html)
+First of all install [jupyter](http://jupyter.org/install.html).
+Then enjoy the tool! :-)
 
 ## Markdown references
 
