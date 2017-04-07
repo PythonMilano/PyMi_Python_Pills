@@ -1,2 +1,0 @@
-'Premature optimization is the root of all evil' once said somebody very knowledgeable, but sooner or later you'll find yourself wanting to speed up your code and so the first thing to do will be to find the bottlenecks.
-Unless you have a Python interpreter installed in your brain :) you need some profiling tool.
