@@ -8,7 +8,7 @@ Python Pills from Python Milano Meetup: gotchas, tip n' tricks and slack discuss
 
 * First of all install [jupyter](http://jupyter.org/install.html).
 * The notebook shall be written preferably in english.
-* The discussion could came from Slack or other problem that you have solved.
+* The discussion could come from Slack or a problem that you have solved.
 
 Thanks for contributions and enjoy the pills! :snake:
 
